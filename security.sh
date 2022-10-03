@@ -1,7 +1,7 @@
 #!/bin/bash
 #-----------------------
 #--Required Packages-
-sudo install ufw fail2ban -y
+sudo dnf install ufw fail2ban -y
 
 # --- Setup UFW rules
 sudo ufw limit 22/tcp
